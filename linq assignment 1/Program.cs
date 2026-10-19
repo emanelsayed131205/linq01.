@@ -16,6 +16,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
             }
+
             #endregion
 
             #region Get a list of only the product names from ProductList. Print each name.

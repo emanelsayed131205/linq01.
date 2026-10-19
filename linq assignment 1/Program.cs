@@ -67,6 +67,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName},UnitInstock:{product.UnitsInStock}");
             }
+
             #endregion
 
             #region Create a new anonymous type with three properties:

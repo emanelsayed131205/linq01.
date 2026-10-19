@@ -84,7 +84,6 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {item.Name}, Price: {item.Price}, Status: {item.StockStatus}");
             }
-
             #endregion
 
             #region Print each product's name along with its position (1-based) in the list. Expected format: 1.Chai, 2.Chang, etc.

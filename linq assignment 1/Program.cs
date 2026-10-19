@@ -108,6 +108,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Category: {product.Category}, Name: {product.ProductName}, Price: {product.UnitPrice}");
             }
+
             #endregion
 
             #region Get all products from the "Beverages" category, sorted by UnitsInStock descending. Print name and stock.

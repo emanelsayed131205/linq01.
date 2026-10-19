@@ -29,6 +29,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine(name);
             }
+
             #endregion
 
             #region Sort all products by UnitPrice (ascending). Print each product's name and price.

@@ -16,6 +16,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
             }
+
             #endregion
 
             #region Get a list of only the product names from ProductList. Print each name.
@@ -28,6 +29,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine(name);
             }
+
             #endregion
 
             #region Sort all products by UnitPrice (ascending). Print each product's name and price.
@@ -40,6 +42,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
             }
+
             #endregion
 
             #region Get all products where UnitPrice is between 10 and 30
@@ -52,6 +55,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
             }
+
             #endregion
 
             #region Get all products that are in stock (UnitsInStock > 0) and belong to the "Condiments" category.
@@ -63,6 +67,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName},UnitInstock:{product.UnitsInStock}");
             }
+
             #endregion
 
             #region Create a new anonymous type with three properties:
@@ -79,7 +84,6 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {item.Name}, Price: {item.Price}, Status: {item.StockStatus}");
             }
-
             #endregion
 
             #region Print each product's name along with its position (1-based) in the list. Expected format: 1.Chai, 2.Chang, etc.
@@ -91,6 +95,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine(item);
             }
+
             #endregion
 
             #region Sort ProductList by Category ascending, then within each category, sort by UnitPrice descending.
@@ -103,6 +108,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Category: {product.Category}, Name: {product.ProductName}, Price: {product.UnitPrice}");
             }
+
             #endregion
 
             #region Get all products from the "Beverages" category, sorted by UnitsInStock descending. Print name and stock.
@@ -115,6 +121,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName}, Stock: {product.UnitsInStock}");
             }
+
             #endregion
 
             #region Using QUERY SYNTAX with a compound from clause, list all orders placed in 1997 or later showing CustomerID and OrderDate. 
@@ -128,6 +135,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"CustomerID: {order.CustomerID}, OrderDate: {order.OrderDate}");
             }
+
             #endregion
 
             #region Show position number alongside ProductName
@@ -138,10 +146,12 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"{item.Position}.{item.ProductName}");
             }
+
             #endregion
 
             #region Sort first by-word length and then by a case -insensitive sort of the words in an array.
             //can not do that question 
+
             #endregion
 
             #region Create a list of all digits in the array whose second letter is 'i' that is reversed from the order in the original array.
@@ -156,6 +166,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine(item);
             }
+
             #endregion
         }
     }

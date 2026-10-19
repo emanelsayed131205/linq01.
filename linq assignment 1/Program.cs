@@ -42,6 +42,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
             }
+
             #endregion
 
             #region Get all products where UnitPrice is between 10 and 30

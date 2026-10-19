@@ -146,6 +146,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"{item.Position}.{item.ProductName}");
             }
+
             #endregion
 
             #region Sort first by-word length and then by a case -insensitive sort of the words in an array.

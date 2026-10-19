@@ -55,6 +55,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
             }
+
             #endregion
 
             #region Get all products that are in stock (UnitsInStock > 0) and belong to the "Condiments" category.

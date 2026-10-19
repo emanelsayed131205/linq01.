@@ -121,6 +121,7 @@ namespace linq_assignment_1
             {
                 Console.WriteLine($"Name: {product.ProductName}, Stock: {product.UnitsInStock}");
             }
+
             #endregion
 
             #region Using QUERY SYNTAX with a compound from clause, list all orders placed in 1997 or later showing CustomerID and OrderDate. 
